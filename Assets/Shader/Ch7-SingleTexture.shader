@@ -81,5 +81,5 @@ Shader "Custom/Ch7-SingleTexture" {
 
 		}
 	}
-	FallBack "Diffuse"
+	FallBack "Specular"
 }
