@@ -48,7 +48,7 @@
 				output.vertex = UnityObjectToClipPos(input.vertex);
 				output.worldPos = mul(unity_WorldToObject, input.vertex);
 				output.worldNormal = UnityObjectToWorldNormal(input.vertex);
-				output.uv = input.tex.xy * _RampTex_ST.xy + input.tex.zw * _RampTex_ST.zw;
+				output.uv = input.tex.xy * _RampTex_ST.xy + _RampTex_ST.zw;
 
 				return output;
 			}
