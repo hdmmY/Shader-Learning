@@ -1,12 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shader Learning.Editor", "Shader Learning.Editor.csproj", "{DC5925DB-DA86-9365-C3DA-8D75B57FF3CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC5925DB-DA86-9365-C3DA-8D75B57FF3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5925DB-DA86-9365-C3DA-8D75B57FF3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5925DB-DA86-9365-C3DA-8D75B57FF3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5925DB-DA86-9365-C3DA-8D75B57FF3CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

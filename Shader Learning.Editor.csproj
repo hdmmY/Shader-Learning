@@ -117,12 +117,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Editor\NewEditModeTest.cs" />
+    <Compile Include="Assets\Scirpt\Editor\RenderCubeMapWizard.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shader\Ch10-Reflection.shader" />
+    <None Include="Assets\Shader\Ch6-DiffusePixel.shader" />
+    <None Include="Assets\Shader\Ch6-DiffuseVertex.shader" />
+    <None Include="Assets\Shader\Ch6-HalfLambert.shader" />
+    <None Include="Assets\Shader\Ch6-SpecularPixel.shader" />
+    <None Include="Assets\Shader\Ch6-SpecularVertex.shader" />
+    <None Include="Assets\Shader\Ch7-MaskTexture.shader" />
+    <None Include="Assets\Shader\Ch7-NormalMapTangent.shader" />
+    <None Include="Assets\Shader\Ch7-NormalMapWorld.shader" />
+    <None Include="Assets\Shader\Ch7-RampTexture.shader" />
+    <None Include="Assets\Shader\Ch7-SingleTexture.shader" />
+    <None Include="Assets\Shader\Ch8-AlphaBlendBothSide.shader" />
+    <None Include="Assets\Shader\Ch8-AlphaTest.shader" />
+    <None Include="Assets\Shader\Ch8-AlphaTestBothSide.shader" />
+    <None Include="Assets\Shader\Ch9-ForwardRender.shader" />
     <None Include="Assets\Shader\Test_01.shader" />
     <None Include="Assets\Shader\Test_02.shader" />
     <None Include="Assets\Shader\Test_03.shader" />
+    <None Include="Assets\Shader\Test_04.shader" />
+    <None Include="Assets\Shader\Test_05.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

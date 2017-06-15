@@ -37,7 +37,7 @@
 
 				output.vertex = UnityObjectToClipPos(input.vertex);
 
-				fixed3 ambientColor = UNITY_LIGHTMODEL_AMBIENT;
+				fixed3 ambientColor = UNITY_LIGHTMODEL_AMBIENT.rgb;
 
 				fixed3 worldNormal = normalize(mul(input.normal, (float3x3)unity_WorldToObject));
 

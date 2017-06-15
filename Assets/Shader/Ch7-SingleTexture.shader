@@ -65,7 +65,7 @@ Shader "Custom/Ch7-SingleTexture" {
 
 				fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.rbg * albedo;
 
-				fixed3 diffuse = _LightColor0 * albedo * max(dot(worldNormal, worldLightDir), 0);
+				fixed3 diffuse = _LightColor0.rgb * albedo * max(dot(worldNormal, worldLightDir), 0);
 
 				fixed3 viewDir = UnityWorldSpaceViewDir(worldPosition);
 				fixed3 halfDir = normalize(worldLightDir + viewDir);
