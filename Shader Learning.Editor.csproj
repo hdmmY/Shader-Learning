@@ -120,7 +120,11 @@
     <Compile Include="Assets\Scirpt\Editor\RenderCubeMapWizard.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Shader\Ch10-GrassReflection.shader" />
+    <None Include="Assets\Shader\Ch10-Mirror.shader" />
     <None Include="Assets\Shader\Ch10-Reflection.shader" />
+    <None Include="Assets\Shader\Ch10-Refraction.shader" />
+    <None Include="Assets\Shader\Ch11-ImageSequenceAnimation.shader" />
     <None Include="Assets\Shader\Ch6-DiffusePixel.shader" />
     <None Include="Assets\Shader\Ch6-DiffuseVertex.shader" />
     <None Include="Assets\Shader\Ch6-HalfLambert.shader" />
