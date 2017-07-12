@@ -117,9 +117,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Shader Learning.csproj">
+      <Project>{FC52C65D-921D-B9A7-28A4-D50D180DE5E5}</Project>
+      <Name>Shader Learning</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Scirpt\Editor\RenderCubeMapWizard.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Assets\Rounded\Rounded Cube Grid.shader" />
     <None Include="Assets\Shader\Ch10-GrassReflection.shader" />
     <None Include="Assets\Shader\Ch10-Mirror.shader" />
     <None Include="Assets\Shader\Ch10-Reflection.shader" />
